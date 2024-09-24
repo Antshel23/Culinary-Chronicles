@@ -1,3 +1,32 @@
-p1 {
-    font-size: 20px;
+h1 {
+    font-size: 100px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 40px;
+}
+
+html {
+    background-color: purple;
+    color: white;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.row:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+img {
+    width: 400px;
+    height: 400px;
+    border: 5px solid #555
 }
